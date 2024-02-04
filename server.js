@@ -7,7 +7,7 @@ mongoose
     console.log("Connected to MongoDB Atlast Database");
   });
 const app = require("./app");
-const PORT = 3000 || process.env.PORT;
+const PORT = 10000 || process.env.PORT;
 const server = app.listen(PORT, () => {
   console.log("Listen to port....");
 });
