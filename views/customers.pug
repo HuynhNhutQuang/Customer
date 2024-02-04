@@ -1,0 +1,16 @@
+extends base
+block content
+  h1 List Customers
+  each customer in customers
+    .customer
+        span Name:
+        | 
+        span=customer.name 
+        | 
+        span Age: 
+        | 
+        span=customer.age 
+        | 
+        span Job: 
+        | 
+        span=customer.job        
